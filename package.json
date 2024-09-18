@@ -1,0 +1,35 @@
+{
+  "name": "test",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "deploy": "git add . && git commit -m \"$npm_config_message\" && git push"
+  },
+  "dependencies": {
+    "core-js": "^3.8.3",
+    "element-ui": "^2.15.13",
+    "fontmin": "^0.9.9",
+    "husky": "^9.1.6",
+    "mammoth": "^1.5.1",
+    "node-polyfill-webpack-plugin": "^2.0.1",
+    "vue": "^2.6.14",
+    "vue-router": "^3.5.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "html2canvas": "^1.4.1",
+    "sortablejs": "^1.15.0",
+    "uuid": "^10.0.0",
+    "vform-builds": "^2.2.9",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
